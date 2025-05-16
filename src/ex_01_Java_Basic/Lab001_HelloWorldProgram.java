@@ -1,12 +1,15 @@
 package ex_01_Java_Basic;
 
-public class Lab001_HelloWorldProgram {
+public class Lab001_HelloWorldProgram
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println("Hello World.");
     }
 
-    public void swap(String[] args) {
+    public void swap(String[] args)
+    {
         System.out.println("Hello Swap.");
     }
 }

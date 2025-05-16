@@ -3,10 +3,15 @@ package ex_03_Literals;
 public class Lab010_Operators {
 
     public static void main(String[] args) {
-        //assignment operator
+        //***assignment operator***
                 int age = 90;  //assignment operator =
+        System.out.println(age);
+        age+=5;  // age = age+3; // 90+5 = 95
+        System.out.println(age);
+        age-=5;  // age = age-10; // 95-10 = 85
+        System.out.println(age);
 
-        //Arithmetic operators
+        //***Arithmetic operators***
         // + addition
         //  - subtraction
         // * multiplication
@@ -25,7 +30,7 @@ public class Lab010_Operators {
         System.out.println("a+b");
         System.out.println(a+b);
 
-        //Unary Operator
+        //***Unary Operator***
         int d = +10;
         int e = -110;
         int result = d+e;
@@ -33,12 +38,12 @@ public class Lab010_Operators {
         System.out.println(e);
         System.out.println(result);
 
-        //Mod /modulus- -> reminder
+        //***Mod /modulus- -> reminder***
         int f = 13;
         int g = 7;
         System.out.println(f%g);
 
-        //Relational operators
+        //***Relational operators***
         // <   less than
         // <= less than & equal to
         // > greater
