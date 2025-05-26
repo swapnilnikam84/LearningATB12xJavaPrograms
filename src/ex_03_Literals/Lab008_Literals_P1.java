@@ -38,6 +38,5 @@ public class Lab008_Literals_P1 {
         System.out.println("Swapnil"+carriage_return+"Nikam");
 
         char c10 = 'A';
-
     }
 }

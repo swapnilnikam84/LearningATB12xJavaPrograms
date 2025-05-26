@@ -1,6 +1,6 @@
 package ex_05_Ternary_Operator;
 
-public class Lab021_IntQ_AgeClassification {
+public class Lab026_IntQ_AgeClassification {
     public static void main(String[] args) {
         // age = 23 -> Adult (age > 18), Minor (age < 18), Senior (age > 65)
         // take an input from user
@@ -13,6 +13,7 @@ public class Lab021_IntQ_AgeClassification {
 
         String result = (age < 18) ? "Minor" : (age < 65) ? "Adult" : "Senior" ;
         System.out.println(result);
+
 
     }
 }

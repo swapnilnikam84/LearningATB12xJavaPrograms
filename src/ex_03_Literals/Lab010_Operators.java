@@ -4,11 +4,16 @@ public class Lab010_Operators {
 
     public static void main(String[] args) {
         //***assignment operator***
-                int age = 90;  //assignment operator =
+                int age = 90;
+        // =  -> assignment operator
+        //int -> data type
+        //age -> identifier
+        //90 ->Literal
+
         System.out.println(age);
         age+=5;  // age = age+3; // 90+5 = 95
         System.out.println(age);
-        age-=5;  // age = age-10; // 95-10 = 85
+        age-=5;  // age = age-10; // 90-10 = 80
         System.out.println(age);
 
         //***Arithmetic operators***
@@ -41,7 +46,7 @@ public class Lab010_Operators {
         //***Mod /modulus- -> reminder***
         int f = 13;
         int g = 7;
-        System.out.println(f%g);
+        System.out.println("Modulus(Reminder) is : " +f%g);
 
         //***Relational operators***
         // <   less than
@@ -54,7 +59,7 @@ public class Lab010_Operators {
         int h = 10;
         int i = 30;
         boolean j = h>i;
-        System.out.println(j);
+        System.out.println("For h>i Boolean is : " +j);
 
         int age_father = 39;
         int age_daughter = 40;
@@ -66,8 +71,11 @@ public class Lab010_Operators {
         boolean b1 = true;
         System.out.println(!!b1);
 
-        boolean c1 = true || false;
-        System.out.println(c1);
+        boolean c1 = true && false;
+        boolean c2 = true || false;
+        System.out.println("AND- true && false is : " +c1);
+        System.out.println("OR- true || false is : " +c2);
+
 
     }
 

@@ -6,8 +6,10 @@ public class Lab004_Common_Math {
         System.out.println(2*2);
         System.out.println(2/2);
         System.out.println(2-2);
-        System.out.println(3/2);
+        System.out.println(3/2);  //print - always Integer part - no decimal
         System.out.print("Hi");
+        System.out.println("Hello");
+
 
 
     }

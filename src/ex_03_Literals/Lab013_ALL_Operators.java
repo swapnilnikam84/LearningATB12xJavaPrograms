@@ -7,10 +7,10 @@ public class Lab013_ALL_Operators {
         boolean b1 = true;
         int a = 10;
         int b = 20;
-        System.out.println(a + b);
+        System.out.println("a+b is: " +(a + b));
         System.out.println(a > b);
         System.out.println(a >= b);
-        System.out.println(a == b);
+        System.out.println("Compare Operator : " +(a == b));   //compare operator/value compare
         System.out.println(a != b);
 
         //Arithmetic Operators
@@ -32,8 +32,8 @@ public class Lab013_ALL_Operators {
         System.out.println("a1+b1");
         System.out.println(a1+b2);
 
-        //Compound operators
-        // +=, /=, *=
+        //Compound assignment operators
+        // +=, -=, /=, *=
         int age = 10;
         age += 10;  //----age = age+10;
 //        age /= 10; // ----age = age/10

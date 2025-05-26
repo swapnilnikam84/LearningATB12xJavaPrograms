@@ -14,10 +14,10 @@ public class Lab005_Variables {
         byte age = 10;   //00001010 - 8 bits can maxi 127 value
         short s = 10;
 
-        long l = 989456454436L;
+        long l = 989456454436L;  //989456454436l;-l can be small or caps
         float f = 3.14f;
         double d = 67.4546489;
-        boolean b1 = true;
+        boolean b1 = true;     //boolean default value is - false
         char c = 'A';
 
         int _2 = 123;
@@ -36,8 +36,6 @@ public class Lab005_Variables {
         // Boolean  //
         boolean is_java_automation = true;
         boolean is_swapnil_has_punch = true;
-
-
     }
 
 }
