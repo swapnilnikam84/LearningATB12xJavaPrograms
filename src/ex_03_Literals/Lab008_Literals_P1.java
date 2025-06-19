@@ -3,7 +3,7 @@ package ex_03_Literals;
 public class Lab008_Literals_P1 {
 
     public static void main(String[] args) {
-       //literals
+       //literals - A constant value which can be assigned to a variable.
         int age = 65;  //65-is integer literal
        age = 66;
 
@@ -14,6 +14,10 @@ public class Lab008_Literals_P1 {
         float pi = 3.14f;  //3.14f is floating literal
         float pi2 = 3.14F;
         float x = 10.00f;
+
+        double d1 = 4.56d;
+        long l1 = 54564645646L;
+        short s1 = 45;
 
         boolean is_married = true;   //true/false - boolean literal
         boolean is_married1 = false;
@@ -38,5 +42,8 @@ public class Lab008_Literals_P1 {
         System.out.println("Swapnil"+carriage_return+"Nikam");
 
         char c10 = 'A';
+        String str = "SwapnilN";
+        System.out.println(str);
+
     }
 }
